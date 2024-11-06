@@ -1,17 +1,13 @@
-import Image from "next/image";
 import Navbar from "./components/Navbar";
-import Head from "next/head";
-import logo from "@/public/logo.jpg";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <link rel="shortcut icon" href={logo} />
-      </Head>
-      <Navbar />
+      
       <Hero />
+      <About />
     </>
   );
 }

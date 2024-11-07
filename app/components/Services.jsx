@@ -16,7 +16,7 @@ export default function Services() {
   return (
     <>
       <div className="max-w-screen-lg mx-auto mt-[150px] ">
-        <p className=" text-center text-5xl text-blue-600 my-10">
+        <p className=" text-center text-5xl text-blue-600 my-10 px-4">
           Services we Offer
         </p>
         <div className="flex justify-evenly flex-wrap gap-10 my-10">

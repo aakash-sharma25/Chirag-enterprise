@@ -13,7 +13,7 @@ export default function Hero() {
         <Image
           src={hero}
           alt="hero image"
-          className="min-h-screen w-[100%] blur-[3px]"
+          className="min-h-screen w-[100%] blur-[3px] bg-green-600"
         />
         <div className=" absolute bottom-16 md:bottom-10 left-6 bg-slate-500 bg-opacity-70 p-2 rounded-md w-[90%] md:w-[40%] ">
           <p className=" font-extrabold text-3xl text-white my-2 p-2 ">

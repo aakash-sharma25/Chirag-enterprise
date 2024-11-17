@@ -11,6 +11,15 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        jump: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.1)' },
+        },
+      },
+      animation: {
+        jump: "jump 1s ease-in-out infinite",
+      },
     },
   },
   plugins: [],

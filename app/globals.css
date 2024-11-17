@@ -1,7 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+[data-aos] {
+  z-index: 10;
+}
+@media (max-width: 768px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

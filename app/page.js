@@ -4,13 +4,14 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Getquote from "./components/Getquote";
 import Strip from "./components/Strip";
-import Aos from "aos";
+import WhatsAppBtn from "./components/WhatsAppBtn";
 
 export default function Home() {
-  
   return (
     <>
-      <div className=" mt-[50px]" />
+      <div className=" mt-[50px]">
+       <WhatsAppBtn />
+      </div>
       <Hero />
       <About />
       <Strip />

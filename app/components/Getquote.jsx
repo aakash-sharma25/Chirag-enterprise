@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Getquote() {
   return (
-    <div className=" flex flex-col gap-10 items-center justify-center text-center py-10 bg-blue-900 my-10 text-white">
+    <div data-aos="fade-up" data-aos-duration="1000" className=" flex flex-col gap-10 items-center justify-center text-center py-10 bg-blue-900 my-10 text-white">
       <h1 className=" text-3xl text-yellow-500 ">
         {" "}
         Get a personalized quote today!

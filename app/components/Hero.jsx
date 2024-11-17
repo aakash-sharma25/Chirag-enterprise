@@ -1,9 +1,16 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import hero from "@/public/sdflooring.jpg";
 import Head from "next/head";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Hero() {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
   return (
     <>
       <Head>
@@ -16,7 +23,10 @@ export default function Hero() {
           className="min-h-screen w-[100%] blur-[3px] bg-green-600"
           loading="eager"
         />
-        <div className=" absolute bottom-16 md:bottom-10 left-6 bg-slate-500 bg-opacity-70 p-2 rounded-md w-[90%] md:w-[40%] ">
+        <div
+          data-aos="fade-up"
+          className=" absolute bottom-16 md:bottom-10 left-6 bg-slate-500 bg-opacity-70 p-2 rounded-md w-[90%] md:w-[40%] "
+        >
           <p className=" font-extrabold text-3xl text-white my-2 p-2 ">
             Welcome to Chirag Enterprise
           </p>

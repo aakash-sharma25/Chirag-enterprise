@@ -1,22 +1,25 @@
 import React from "react";
-import mission from "@/public/image.png";
 import antiyscert from "@/public/antiyscert.jpg";
 import Image from "next/image";
-
 export default function About() {
   return (
     <>
       <div className="container mx-auto flex flex-col justify-evenly p-10 md:p-0 items-center text-center md:text-start lg:flex-row gap-8 my-10">
         <Image
+          data-aos="fade-right"
+          data-aos-duration="1200"
           src={antiyscert}
           alt="Coating Image 1"
           height={400}
           width={400}
           className="rounded-md  shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]"
-
         />
 
-        <div className="flex flex-col gap-6 w-full lg:w-1/2  text-lg">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1200"
+          className="flex flex-col gap-6 w-full lg:w-1/2  text-lg"
+        >
           <h1 className="text-4xl font-bold text-blue-900">
             Chirag Enterprise.
           </h1>
@@ -28,7 +31,6 @@ export default function About() {
             commercial spaces, delivering long-lasting results that enhance the
             beauty and functionality of any environment.
           </p>
-
           <div className=" flex flex-col gap-6">
             <h2 className="text-xl font-semibold text-blue-900">
               Professional Equipment
@@ -39,7 +41,6 @@ export default function About() {
               and functionality of any environment.
             </p>
           </div>
-
           <div className=" flex flex-col gap-6">
             <h2 className="text-xl font-semibold text-blue-900">
               Top quality material

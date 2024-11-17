@@ -9,7 +9,11 @@ export default function MissionAndVision() {
         Mission And vision
       </p>
       <div className="container mx-auto flex flex-col  justify-evenly p-10 md:p-0 items-center text-center md:text-start lg:flex-row gap-8 my-10 text-lg">
-        <div className="flex flex-col gap-6 w-full lg:w-1/2 pr-10">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className="flex flex-col gap-6 w-full lg:w-1/2 pr-10"
+        >
           <h2 className="text-xl font-semibold text-blue-900">Vision</h2>
           <p className="text-gray-700 leading-relaxed">
             To become India's most trusted provider of high-quality flooring
@@ -31,6 +35,8 @@ export default function MissionAndVision() {
           </div>
         </div>
         <Image
+          data-aos="fade-left"
+          data-aos-duration="1000"
           src={mission}
           alt="Coating Image 1"
           height={400}

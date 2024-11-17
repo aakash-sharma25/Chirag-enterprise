@@ -124,7 +124,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import logo from "@/public/logo.jpg";
+import logo from "@/public/log2.png";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -132,9 +132,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-50 bg-white p-[20px] w-[100%] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white md:p-[20px] p-[10px] w-[100%] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
         <div className="max-w-screen-lg mx-auto flex items-center justify-between text-xl font-semibold">
-          <Image src={logo} alt="company logo" width={50} height={50} />
+          <Image src={logo} alt="company logo" width={150} height={100} />
 
           <div className="hidden md:flex justify-evenly w-[40%] gap-5">
             <Link

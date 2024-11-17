@@ -71,7 +71,7 @@ export default function page() {
             </svg>
             <div className="mt-4 text-center">
               <h4 className="text-gray-800 text-base font-bold">Chat to us</h4>
-              <p className="text-sm text-gray-500 mt-2">gmail@gmail.com</p>
+              <p className="text-sm text-gray-500 mt-2">chiragenterprises1994@gmail.com</p>
             </div>
           </div>
         </div>

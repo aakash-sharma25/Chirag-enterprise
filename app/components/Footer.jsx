@@ -8,10 +8,10 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <a href="/">
               <Image
-                src="/logo.jpg"
+                src="/log1.png"
                 alt="logo"
-                width={50}
-                height={50}
+                width={100}
+                height={150}
                 className=""
               />
             </a>
@@ -131,14 +131,14 @@ export default function Footer() {
                 Flat no 209 bldg no 4 paramount enclave phase 1
                 palghar mahim 401404
               </p>
-              <p className="text-gray-300 text-sm">contact@example.com</p>
+              <p className="text-gray-300 text-sm">chiragenterprises1994@gmail.com</p>
               <p className="text-gray-300 text-sm">+918007443651</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="text-center py-5 bg-[#08355e]">
+      <div className="text-center py-5 bg-blue-900">
         <p className="text-gray-300 text-sm">
           © Chirag Enterprise. All rights reserved.
         </p>

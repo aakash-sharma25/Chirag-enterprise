@@ -4,16 +4,18 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Getquote from "./components/Getquote";
 import Strip from "./components/Strip";
+import Aos from "aos";
 
 export default function Home() {
+  
   return (
     <>
-      <div className=" mt-[50px]"/>
+      <div className=" mt-[50px]" />
       <Hero />
       <About />
-      <Strip/>
-      <Services/>
-      <Getquote/>
+      <Strip />
+      <Services />
+      <Getquote />
     </>
   );
 }

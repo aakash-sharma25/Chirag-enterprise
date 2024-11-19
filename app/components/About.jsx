@@ -1,11 +1,23 @@
 import React from "react";
-import antiyscert from "@/public/antiyscert.jpg";
-import Image from "next/image";
 export default function About() {
   return (
     <>
       <div className="container mx-auto flex flex-col justify-evenly p-10 md:p-0 items-center text-center md:text-start lg:flex-row gap-8 my-10">
-        <Image
+        <video
+          poster="/antiyscert.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          width="400"
+          height="400"
+          className="rounded-md  shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]"
+        >
+          <source src="/intro.mp4" type="video/mp4" />
+          Your browser doesn't support the video tag.
+        </video>
+
+        {/* <Image
           data-aos="fade-right"
           data-aos-duration="1200"
           src={antiyscert}
@@ -13,7 +25,7 @@ export default function About() {
           height={400}
           width={400}
           className="rounded-md  shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]"
-        />
+        /> */}
 
         <div
           data-aos="fade-left"

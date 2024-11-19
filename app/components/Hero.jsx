@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
 import hero from "@/public/sdflooring.jpg";
+
 import Head from "next/head";
 import Aos from "aos";
 import "aos/dist/aos.css";

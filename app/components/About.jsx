@@ -4,6 +4,8 @@ export default function About() {
     <>
       <div className="container mx-auto flex flex-col justify-evenly p-10 md:p-0 items-center text-center md:text-start lg:flex-row gap-8 my-10">
         <video
+          data-aos="fade-right"
+          data-aos-duration="1200"
           poster="/antiyscert.jpg"
           autoPlay
           muted

@@ -6,6 +6,7 @@ import hero from "@/public/sdflooring.jpg";
 import Head from "next/head";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 export default function Hero() {
   useEffect(() => {
@@ -35,9 +36,9 @@ export default function Hero() {
             Get The inventive flooring service at affordable rates by our
             experienced professionsals
           </p>
-          <button className=" my-2 text-lg font-normal px-4 py-2 rounded-3xl bg-blue-500 hover:bg-blue-800 text-white transition-all ease-in-out delay-100">
+          <Link href={"/contact"} className=" my-2 text-lg font-normal px-4 py-2 rounded-3xl bg-blue-500 hover:bg-blue-800 text-white transition-all ease-in-out delay-100">
             Request Services
-          </button>
+          </Link>
         </div>
       </div>
     </>

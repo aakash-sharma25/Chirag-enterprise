@@ -15,16 +15,17 @@ import { data } from "../data";
 export default function page() {
   return (
     <>
+      <p className=" text-center font-bold text-3xl text-blue-600 px-4 mt-[150px]">
+        Services We Offer
+      </p>
       <div className="flex justify-evenly flex-wrap gap-10 max-w-screen-lg mx-auto my-10">
-        <ServiceCard img={onemm} name={"1 MM"} />
+        <ServiceCard img={fourmm} name={"1 MM"} />
         <ServiceCard img={twomm} name={"2 MM"} />
         <ServiceCard img={threemm} name={"3 MM"} />
-        <ServiceCard img={fourmm} name={"4 MM"} />
-        {/* {data["antiSkidFlooring"]} */}
+        <ServiceCard img={onemm} name={"4 MM"} />
       </div>
       <Services />
-      <div className="flex justify-evenly flex-wrap gap-10 max-w-screen-lg mx-auto">
-        {/* <ServiceCard img={cotajoining} name={"Cota Joniding Flooring"} /> */}
+      <div className="flex justify-evenly flex-wrap gap-10 max-w-screen-lg mx-auto mb-10">
         <ServiceCard img={antyiscert} name={"Anti Scert Flooring"} />
         <ServiceCard img={pucoting} name={"PU Coting Flooring"} />
         <ServiceCard img={sdflooring} name={"SD Flooring"} />

@@ -10,10 +10,10 @@ import Link from "next/link";
 export default function Services({ showButton = false }) {
   return (
     <>
-      <div className="max-w-screen-lg mx-auto mt-[150px] flex flex-col items-center justify-center ">
-        <p className=" text-center font-bold text-3xl text-blue-600  px-4">
+      <div className="max-w-screen-lg mx-auto  flex flex-col items-center justify-center ">
+        {/* <p className=" text-center font-bold text-3xl text-blue-600  px-4">
           Services We Offer
-        </p>
+        </p> */}
         <div className="flex justify-evenly flex-wrap gap-10 my-10">
           <ServiceCard img={carparking} name={"Car Parking Flooring"} />
           <ServiceCard img={waterproofcoatin} name={"Waterproff Coating"} />

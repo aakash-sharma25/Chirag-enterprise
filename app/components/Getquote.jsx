@@ -23,7 +23,7 @@ export default function Getquote() {
         rel="noopener noreferrer"
         className="text-lg font-lg px-6 py-2 rounded-3xl bg-yellow-500 hover:bg-yellow-600 text-black transition-all ease-in-out delay-100"
       >
-        Get Quote
+        Get Quote Today
       </a>
     </div>
   );

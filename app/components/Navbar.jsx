@@ -41,9 +41,9 @@ export default function Navbar() {
           </div>
 
           <div>
-            <button className="hidden md:inline animate-bounce text-sm font-normal px-4 py-2 rounded-3xl bg-blue-500 hover:bg-blue-800 text-white transition-all ease-in-out delay-100">
+            <Link href={"/contact"} className="hidden md:inline animate-bounce text-sm font-normal px-4 py-2 rounded-3xl bg-blue-500 hover:bg-blue-800 text-white transition-all ease-in-out delay-100">
               Request Services
-            </button>
+            </Link>
 
             <div className="md:hidden inline">
               {!open ? (

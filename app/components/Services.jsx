@@ -1,35 +1,35 @@
 import React from "react";
-import antyiscert from "@/public/antiyscert.jpg";
 import carparking from "@/public/carparkingflooring.jpg";
 import cotajoining from "@/public/cotajoniding.jpg";
 import evcharging from "@/public/evcharging.jpg";
-import globeSvg from "@/public/globe.svg";
-import pucoting from "@/public/pucoting.jpg";
 import puflooring from "@/public/puflooring.jpg";
-import sdflooring from "@/public/sdflooring.jpg";
 import waterproofcoatin from "@/public/waterproffcoatin.jpg";
-import yellowmarking from "@/public/yellowmarking.jpg";
 import ServiceCard from "./ServiceCard";
-import Getquote from "./Getquote";
+import Link from "next/link";
 
-export default function Services() {
+export default function Services({ showButton = false }) {
   return (
     <>
-      <div className="max-w-screen-lg mx-auto mt-[150px] ">
-        <p className=" text-center text-5xl text-blue-600 my-10 px-4">
-          Services we Offer
+      <div className="max-w-screen-lg mx-auto mt-[150px] flex flex-col items-center justify-center ">
+        <p className=" text-center font-bold text-3xl text-blue-600  px-4">
+          Services We Offer
         </p>
         <div className="flex justify-evenly flex-wrap gap-10 my-10">
           <ServiceCard img={carparking} name={"Car Parking Flooring"} />
           <ServiceCard img={waterproofcoatin} name={"Waterproff Coating"} />
           <ServiceCard img={evcharging} name={"EV Parking Flooring"} />
           <ServiceCard img={puflooring} name={"PU Flooring"} />
-          <ServiceCard img={cotajoining} name={"Cota Joniding Flooring"} />
-          <ServiceCard img={antyiscert} name={"Anti Scert Flooring"} />
+         <ServiceCard img={cotajoining} name={"Cota Joniding Flooring"} />
+           {/* <ServiceCard img={antyiscert} name={"Anti Scert Flooring"} />
           <ServiceCard img={pucoting} name={"PU Coting Flooring"} />
           <ServiceCard img={sdflooring} name={"SD Flooring"} />
-          <ServiceCard img={yellowmarking} name={"Yellow Marking"} />
+          <ServiceCard img={yellowmarking} name={"Yellow Marking"} /> */}
         </div>
+        {showButton && (
+          <Link href={"/services"}  className=" mx-auto   text-lg font-normal px-4 py-2 rounded-3xl bg-blue-500 hover:bg-blue-800 text-white transition-all ease-in-out delay-100">
+            View all services ➡️
+          </Link>
+        )}
       </div>
       {/* <Getquote /> */}
     </>

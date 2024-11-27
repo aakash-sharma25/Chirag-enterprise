@@ -5,9 +5,7 @@ export default function page() {
   return (
     <>
       <div className=" max-w-screen-md  mx-auto p-4 my-[100px]">
-        <h2 className="text-3xl text-gray-800 font-extrabold text-center mb-12">
-          Contact us
-        </h2>
+        <h1 className=" text-5xl font-bold text-blue-500 text-center mb-12 " >About Us</h1>
 
         <div className=" flex justify-between items-center md:flex-row flex-col gap-14 md:gap-0">
           <div className="flex flex-col items-center bg-white w-[60%] md:w-[30%] ">

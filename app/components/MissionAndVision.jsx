@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function MissionAndVision() {
   return (
     <>
-      <p className=" text-center text-5xl font-semibold text-blue-500 my-[50px]">
+      <p className=" text-center text-5xl font-bold text-blue-500 my-[50px]">
         Mission And vision
       </p>
       <div className="container mx-auto flex flex-col  justify-evenly p-10 md:p-0 items-center text-center md:text-start lg:flex-row gap-8 my-10 text-lg">
@@ -14,7 +14,7 @@ export default function MissionAndVision() {
           data-aos-duration="1000"
           className="flex flex-col gap-6 w-full lg:w-1/2 pr-10"
         >
-          <h2 className="text-xl font-semibold text-blue-900">Vision</h2>
+          <h2 className="text-xl font-bold text-blue-900">Vision</h2>
           <p className="text-gray-700 leading-relaxed">
             To become India's most trusted provider of high-quality flooring
             solutions, recognized for our commitment to excellence, durability,
@@ -24,7 +24,7 @@ export default function MissionAndVision() {
           </p>
 
           <div className=" flex flex-col gap-6">
-            <h2 className="text-xl font-semibold text-blue-900">Misssion</h2>
+            <h2 className="text-xl font-bold text-blue-900">Misssion</h2>
             <p className="text-gray-700 leading-relaxed">
               Our mission is to deliver exceptional epoxy and PU flooring
               services tailored to our clients' needs. We focus on quality,

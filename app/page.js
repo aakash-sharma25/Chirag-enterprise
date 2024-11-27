@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <Strip />
-      <Services />
+      <Services showButton={true} />
       <Getquote />
     </>
   );

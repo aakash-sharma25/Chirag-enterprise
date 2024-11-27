@@ -64,7 +64,7 @@ export default function Footer() {
 
             <ul className="flex gap-4">
               <li>
-                <a href="/">
+                <a target="_blank" href="https://www.facebook.com/share/19c3rxeXaX/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -96,7 +96,7 @@ export default function Footer() {
                 </a>
               </li> */}
               <li>
-                <a href="/" className="text-gray-300 hover:text-white">
+                <a href="https://www.instagram.com/chiragenterprises_palghar?utm_source=qr&igsh=enhneWVpZGlhczJv" target="_blank" className="text-gray-300 hover:text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

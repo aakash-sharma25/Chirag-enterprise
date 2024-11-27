@@ -27,7 +27,7 @@ export default function Hero() {
         />
         <div
           data-aos="fade-up"
-          className=" absolute bottom-16 md:bottom-10 left-6 bg-slate-500 bg-opacity-70 p-2 rounded-md w-[90%] md:w-[40%] "
+          className=" absolute bottom-16 md:bottom-10 left-6 bg-slate-500 bg-opacity-70 p-4 rounded-md w-[90%] md:w-[40%] "
         >
           <p className=" font-extrabold text-3xl text-white my-2 p-2 ">
             Welcome to Chirag Enterprise

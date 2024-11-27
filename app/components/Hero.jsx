@@ -15,8 +15,23 @@ export default function Hero() {
   }, []);
   return (
     <>
+      {/* <Head>
+        <link rel="preload" href={hero} as="image" />
+        <title>About - Chirag Enterprise</title>
+        <meta name="description" content="Chirag Enterprises offers the best epoxy solution in palghar" />
+        <meta name="keywords" content="keyword1, keyword2, keyword3" />
+      </Head> */}
       <Head>
         <link rel="preload" href={hero} as="image" />
+        <title>Chirag Epoxy | Best Epoxy & Flooring Solutions in Palghar</title>
+        <meta
+          name="description"
+          content="Discover premium epoxy and flooring solutions in Palghar with Chirag Epoxy. We provide top-quality services to enhance your spaces."
+        />
+        <meta
+          name="keywords"
+          content="epoxy solutions palghar, flooring services palghar, Chirag Epoxy, epoxy flooring Palghar, industrial flooring Palghar, residential flooring Palghar , chiragenterprises , chiragepxoxy,best epoxy solution near me , best expoxy near me"
+        />
       </Head>
       <div className="w-[100%] relative">
         <Image
@@ -36,7 +51,10 @@ export default function Hero() {
             Get The inventive flooring service at affordable rates by our
             experienced professionsals
           </p>
-          <Link href={"/contact"} className=" my-2 text-lg font-normal px-4 py-2 rounded-3xl bg-blue-500 hover:bg-blue-800 text-white transition-all ease-in-out delay-100">
+          <Link
+            href={"/contact"}
+            className=" my-2 text-lg font-normal px-4 py-2 rounded-3xl bg-blue-500 hover:bg-blue-800 text-white transition-all ease-in-out delay-100"
+          >
             Request Services
           </Link>
         </div>

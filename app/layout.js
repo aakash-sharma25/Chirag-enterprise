@@ -18,6 +18,7 @@ export const metadata = {
   title: "Chirag Enterprise",
   description:
     "This is the website for chirag enterprise you can find all the details here ",
+  
 };
 
 export default function RootLayout({ children }) {

@@ -4,8 +4,23 @@ import Getquote from "../components/Getquote";
 export default function page() {
   return (
     <>
+      <Head>
+        <title>
+          Contact Chirag Epoxy | Epoxy & Flooring Experts in Palghar
+        </title>
+        <meta
+          name="description"
+          content="Contact Chirag Epoxy for the best epoxy and flooring solutions in Palghar. Reach out today for inquiries or free consultations."
+        />
+        <meta
+          name="keywords"
+          content="chiragepoxy, chiragenterprises, chirag expoxy  palghar ,contact Chirag Epoxy, epoxy services Palghar, flooring solutions Palghar, get in touch Chirag Epoxy, epoxy flooring consultation Palghar"
+        />
+      </Head>
       <div className=" max-w-screen-md  mx-auto p-4 my-[100px]">
-        <h1 className=" text-5xl font-bold text-blue-500 text-center mb-12 " >About Us</h1>
+        <h1 className=" text-5xl font-bold text-blue-500 text-center mb-12 ">
+          About Us
+        </h1>
 
         <div className=" flex justify-between items-center md:flex-row flex-col gap-14 md:gap-0">
           <div className="flex flex-col items-center bg-white w-[60%] md:w-[30%] ">
@@ -69,7 +84,9 @@ export default function page() {
             </svg>
             <div className="mt-4 text-center">
               <h4 className="text-gray-800 text-base font-bold">Chat to us</h4>
-              <p className="text-sm text-gray-500 mt-2">chiragenterprises1994@gmail.com</p>
+              <p className="text-sm text-gray-500 mt-2">
+                chiragenterprises1994@gmail.com
+              </p>
             </div>
           </div>
         </div>

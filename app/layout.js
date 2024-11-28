@@ -15,10 +15,19 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Chirag Enterprise",
-  description:
-    "This is the website for chirag enterprise you can find all the details here ",
-  
+  metadataBase: new URL("https://chiragepoxy.com"),
+  title: {
+    default: "Chirag Enterprise",
+    template: `%s | Chirag Epoxy Solutions`,
+  },
+  openGraph: {
+    description:
+      "Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Excellence in service and customer satisfaction.",
+  },
+
+  // title: "Chirag Enterprise",
+  // description:
+  //   "Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Excellence in service and customer satisfaction.",
 };
 
 export default function RootLayout({ children }) {

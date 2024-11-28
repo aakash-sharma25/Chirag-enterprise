@@ -3,19 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <Head>
-        <title>
-          About Chirag Epoxy | Trusted Epoxy & Flooring Experts in Palghar
-        </title>
-        <meta
-          name="description"
-          content="Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Excellence in service and customer satisfaction."
-        />
-        <meta
-          name="keywords"
-          content="Chirag Epoxy Palghar, epoxy services, flooring experts, about epoxy solutions Palghar, flooring professionals Palghar , chiragenterprises , chiragepxoy, epxoy in palghar , best epoxy near me , best epoxy in palghar"
-        />
-      </Head>
+     
       <div className="container mx-auto flex flex-col justify-evenly p-10 md:p-0 items-center text-center md:text-start lg:flex-row gap-8 my-10">
         <video
           data-aos="fade-right"

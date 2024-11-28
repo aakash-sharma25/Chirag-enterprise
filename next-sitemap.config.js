@@ -9,7 +9,7 @@ const config = {
     return {
       loc: path,
       changefreq: "daily",
-      priority: 0.7,
+      priority: 0.8,
       lastmod: new Date().toISOString(),
     };
   },

@@ -1,5 +1,6 @@
 import React from "react";
 import Getquote from "../components/Getquote";
+import Head from "next/head";
 
 export default function page() {
   return (

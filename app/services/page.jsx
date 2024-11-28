@@ -11,10 +11,22 @@ import twomm from "@/public/2mm.jpg";
 import threemm from "@/public/3mm.jpg";
 import fourmm from "@/public/4mm.jpg";
 import { data } from "../data";
+import Head from "next/head";
 
 export default function page() {
   return (
     <>
+     <Head>
+        <title>Epoxy & Flooring Services in Palghar | Chirag Epoxy</title>
+        <meta
+          name="description"
+          content="Explore Chirag Epoxy's specialized services in epoxy and flooring solutions. Serving industrial, commercial, and residential clients in Palghar."
+        />
+        <meta
+          name="keywords"
+          content="chiragenterprises , chiragepoxy , carparking, waterproff coating , ev charging, pu flooring palghar, cota joining palghar, epoxy flooring Palghar, epoxy solutions, industrial flooring Palghar, residential flooring, commercial epoxy Palghar, Chirag Epoxy services"
+        />
+      </Head>
       <p className=" text-center font-bold text-3xl text-blue-600 px-4 mt-[150px]">
         Services We Offer
       </p>

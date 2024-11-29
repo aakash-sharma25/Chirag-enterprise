@@ -3,7 +3,7 @@ import MissionAndVision from "../components/MissionAndVision";
 import Strip from "../components/Strip";
 
 export const metadata = {
-  title: "About Us | Chirag Epoxy - Flooring Experts in Palghar",
+  title: "About Us ",
   description:
     "Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Discover our commitment to quality and customer satisfaction.",
   keywords: [

@@ -13,7 +13,7 @@ import fourmm from "@/public/4mm.jpg";
 import { data } from "../data";
 import Head from "next/head";
 export const metadata = {
-  title: "Services | Chirag Epoxy - Epoxy Flooring Solutions in Palghar",
+  title: "Services",
   description:
     "Explore Chirag Epoxy's range of epoxy and flooring solutions in Palghar. We offer durable, high-quality, and customized flooring services.",
   keywords: [

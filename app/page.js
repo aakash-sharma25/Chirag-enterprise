@@ -1,12 +1,13 @@
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import Getquote from "./components/Getquote";
 import Strip from "./components/Strip";
-import WhatsAppBtn from "./components/WhatsAppBtn";
-import Head from "next/head";
-
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
 export const metadata = {
   title: "Chirag Epoxy | Epoxy Flooring & Solutions in Palghar",
   description:
@@ -53,7 +54,6 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function Home() {

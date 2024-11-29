@@ -1,4 +1,3 @@
-import Head from "next/head";
 import About from "../components/About";
 import MissionAndVision from "../components/MissionAndVision";
 import Strip from "../components/Strip";
@@ -48,7 +47,6 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function page() {

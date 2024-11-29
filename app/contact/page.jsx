@@ -1,11 +1,59 @@
 import React from "react";
 import Getquote from "../components/Getquote";
 import Head from "next/head";
+export const metadata = {
+  title: "Contact Us",
+  description:
+    "Contact Chirag Epoxy today for premium epoxy and flooring solutions in Palghar. Get in touch with our experts for reliable and durable flooring services.",
+  keywords: [
+    "contact Chirag Epoxy",
+    "flooring solutions Palghar",
+    "epoxy contractors Palghar",
+    "chiragepoxy",
+    "chiragenterprises",
+    "chirag expoxy  palghar",
+    "contact Chirag Epoxy",
+    "epoxy services Palghar",
+    "flooring solutions Palghar",
+    "get in touch Chirag Epoxy",
+    "epoxy flooring consultation Palghar",
+    "epxoy in palghar",
+    "best epoxy near me",
+    "best epoxy in palghar",
+  ],
+  // openGraph: {
+  //   title: "Contact Us | Chirag Epoxy - Get Flooring Solutions in Palghar",
+  //   description:
+  //     "Need epoxy or flooring services in Palghar? Contact Chirag Epoxy today. Our team is ready to assist you with top-quality solutions.",
+  //   url: "https://chiragepoxy.com/contact",
+  //   images: [
+  //     {
+  //       url: "https://chiragepoxy.com/images/contact-og.jpg",
+  //       alt: "Contact Chirag Epoxy - Flooring Experts in Palghar",
+  //       width: 1200,
+  //       height: 630,
+  //     },
+  //   ],
+  //   type: "website",
+  // },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Contact Us | Chirag Epoxy - Get Flooring Solutions in Palghar",
+  //   description:
+  //     "Get in touch with Chirag Epoxy for reliable and high-quality flooring solutions in Palghar. Contact us now!",
+  //   images: ["https://chiragepoxy.com/images/contact-og.jpg"],
+  // },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  viewport: "width=device-width, initial-scale=1",
+};
 
 export default function page() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>
           Contact Chirag Epoxy | Epoxy & Flooring Experts in Palghar
         </title>
@@ -17,7 +65,7 @@ export default function page() {
           name="keywords"
           content="chiragepoxy, chiragenterprises, chirag expoxy  palghar ,contact Chirag Epoxy, epoxy services Palghar, flooring solutions Palghar, get in touch Chirag Epoxy, epoxy flooring consultation Palghar"
         />
-      </Head>
+      </Head> */}
       <div className=" max-w-screen-md  mx-auto p-4 my-[100px]">
         <h1 className=" text-5xl font-bold text-blue-500 text-center mb-12 ">
           About Us

@@ -18,8 +18,8 @@ const geistMono = localFont({
 export const metadata = {
   metadataBase: new URL("https://chiragepoxy.com"),
   title: {
-    default: "Chirag Enterprise",
-    template: `%s | Chirag Epoxy Solutions`,
+    default: "Chirag Epoxy Palghar",
+    template: `%s | Chirag Epoxy - Flooring Experts in Palghar`,
   },
   keywords:
     "epoxy flooring Palghar, epoxy services Palghar, Chirag Epoxy, chirag enterprises palghar ,best epoxy palghar,best epxoy near palghar , best expoxy in palghar , best expoxy service near mumbai, flooring solutions Palghar",

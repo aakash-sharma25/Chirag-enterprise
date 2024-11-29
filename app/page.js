@@ -25,9 +25,6 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      {/* <div className=" mt-[50px]">
-        <WhatsAppBtn />
-      </div> */}
       <Hero />
       <About />
       <Strip />

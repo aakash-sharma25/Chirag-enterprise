@@ -21,6 +21,8 @@ export const metadata = {
     default: "Chirag Enterprise",
     template: `%s | Chirag Epoxy Solutions`,
   },
+  keywords:
+    "epoxy flooring Palghar, epoxy services Palghar, Chirag Epoxy, chirag enterprises palghar ,best epoxy palghar,best epxoy near palghar , best expoxy in palghar , best expoxy service near mumbai, flooring solutions Palghar",
   description:
     "Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Excellence in service and customer satisfaction.",
   openGraph: {

@@ -29,6 +29,11 @@ export const metadata = {
     description:
       "Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Excellence in service and customer satisfaction.",
   },
+  icons: {
+    icon: "/favicon.ico", 
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png", 
+  },
 };
 
 export default function RootLayout({ children }) {

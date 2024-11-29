@@ -16,10 +16,10 @@ export default function ServiceCard({ img, name }) {
           className="hover:cursor-pointer  w-full h-[90%] rounded-xl"
         />
         <div>
-          <p className="text-center text-blue-600 font-semibold text-xl">
+          <h1 className="text-center text-blue-600 font-semibold text-xl">
             {" "}
             {name}{" "}
-          </p>
+          </h1>
         </div>
       </div>
     </>

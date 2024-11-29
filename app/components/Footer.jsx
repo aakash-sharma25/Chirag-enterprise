@@ -8,10 +8,10 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <a href="/">
               <Image
-                src="/log1.png"
+                src="/logo.png"
                 alt="logo"
-                width={100}
-                height={150}
+                width={150}
+                height={100}
                 className=""
               />
             </a>

@@ -17,6 +17,7 @@ export default function page() {
           name="keywords"
           content="Chirag Epoxy Palghar, epoxy services, flooring experts, about epoxy solutions Palghar, flooring professionals Palghar , chiragenterprises , chiragepxoy, epxoy in palghar , best epoxy near me , best epoxy in palghar"
         />
+        
       </Head>
       <h1 className=" text-3xl text-blue-700 font-bold mt-[120px] text-center ">
         About Us

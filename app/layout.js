@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import WhatsAppBtn from "./components/WhatsAppBtn";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,14 +21,12 @@ export const metadata = {
     default: "Chirag Enterprise",
     template: `%s | Chirag Epoxy Solutions`,
   },
+  description:
+    "Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Excellence in service and customer satisfaction.",
   openGraph: {
     description:
       "Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Excellence in service and customer satisfaction.",
   },
-
-  // title: "Chirag Enterprise",
-  // description:
-  //   "Learn about Chirag Epoxy, your trusted partner for epoxy and flooring solutions in Palghar. Excellence in service and customer satisfaction.",
 };
 
 export default function RootLayout({ children }) {
@@ -37,6 +36,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
+        <div className=" mt-[50px]">
+          <WhatsAppBtn />
+        </div>
         {children}
 
         <Footer />

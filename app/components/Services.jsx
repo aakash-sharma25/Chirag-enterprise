@@ -15,11 +15,11 @@ export default function Services({ showButton = false }) {
           Services We Offer
         </p> */}
         <div className="flex justify-evenly flex-wrap gap-10 my-10">
-          <ServiceCard img={carparking} name={"Car Parking Flooring"} />
-          <ServiceCard img={waterproofcoatin} name={"Waterproff Coating"} />
-          <ServiceCard img={evcharging} name={"EV Parking Flooring"} />
-          <ServiceCard img={puflooring} name={"PU Flooring"} />
-          <ServiceCard img={cotajoining} name={"Cota Joniding Flooring"} />
+          <ServiceCard img={carparking} name={"Car Parking Flooring"} id="car-parking-flooring"/>
+          <ServiceCard img={waterproofcoatin} name={"Waterproff Coating"} id="waterproof-coating"/>
+          <ServiceCard img={evcharging} name={"EV Parking Flooring"} id="ev-parking-flooring"/>
+          <ServiceCard img={puflooring} name={"PU Flooring"} id="pu-flooring"/>
+          <ServiceCard img={cotajoining} name={"Cota Joniding Flooring"} id="cota-joining-flooring"/>
           {/* <ServiceCard img={antyiscert} name={"Anti Scert Flooring"} />
           <ServiceCard img={pucoting} name={"PU Coting Flooring"} />
           <ServiceCard img={sdflooring} name={"SD Flooring"} />
